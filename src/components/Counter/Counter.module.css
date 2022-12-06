@@ -1,0 +1,108 @@
+.counter-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 48px 180px;
+}
+
+.counter-amount {
+  font-size: 30px;
+  font-weight: bold;
+  border: 1px solid #d0d7de;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  padding: 4px 10px;
+  min-width: 100px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.buttons {
+  padding: 20px 0;
+  display: flex;
+  gap: 16px;
+}
+
+.btn-increment {
+  color: #ffffff;
+  background-color: #2da44e;
+  line-height: 20px;
+  padding: 3px 12px;
+  font-size: 20px;
+  font-weight: 500;
+  border: 2px solid;
+  border-radius: 6px;
+  border-color: rgba(27, 31, 36, 0.15);
+  box-shadow: 0 2px 0 rgba(27, 31, 36, 0.1);
+  cursor: pointer;
+}
+
+.btn-increment:hover {
+  color: #2da44e;
+  background-color: #ffffff;
+  border-color: #2da44e;
+}
+
+.btn-decrement {
+  color: #ffffff;
+  background-color: #cf222e;
+  line-height: 20px;
+  padding: 3px 12px;
+  font-size: 20px;
+  font-weight: 500;
+  border: 2px solid;
+  border-radius: 6px;
+  border-color: rgba(27, 31, 36, 0.15);
+  box-shadow: 0 2px 0 rgba(27, 31, 36, 0.1);
+  cursor: pointer;
+}
+
+.btn-decrement:hover {
+  color: #cf222e;
+  background-color: #ffffff;
+  border-color: #cf222e;
+}
+
+.btn-clear {
+  color: #0969da;
+  background-color: #ffffff;
+  line-height: 20px;
+  padding: 3px 12px;
+  font-size: 20px;
+  font-weight: 500;
+  border: 2px solid;
+  border-radius: 6px;
+  border-color: #0969da;
+  box-shadow: 0 2px 0 rgba(27, 31, 36, 0.1);
+  cursor: pointer;
+}
+
+.btn-clear:hover {
+  color: #ffffff;
+  background-color: #0969da;
+  border-color: rgba(27, 31, 36, 0.15);
+}
+
+.more-button-container {
+  margin: 20px 0;
+}
+
+.btn-more {
+  border: 1px solid;
+  border-color: rgba(27, 31, 36, 0.15);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  line-height: 1.5;
+  border-radius: 0.5em;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 6px 24px;
+  background-color: #ffffff;
+}
