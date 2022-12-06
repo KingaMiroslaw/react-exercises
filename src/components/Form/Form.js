@@ -13,7 +13,6 @@ const Form = () => {
   } = useForm({ defaultValues: { actions: "female" } });
 
   const onSubmit = (data) => {
-    console.log(data)
     reset();
   };
 
@@ -28,7 +27,7 @@ const Form = () => {
 
     const pastDate = sub(today, { years: 18 });
 
-    return isBefore(valueDate, pastDate);
+    return isBefore(valueDate, pastDate) || isEqual(valueDate, pastDate);
   };
 
   return (
