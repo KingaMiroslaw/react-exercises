@@ -1,0 +1,65 @@
+.fetch-page {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 220px;
+  padding-bottom: 80px;
+  width: 100%;
+}
+
+.loader {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header {
+  padding-top: 16px;
+  padding-bottom: 4px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #afadad;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.list {
+  text-align: center;
+  padding-top: 16px;
+  margin-bottom: 28px;
+}
+
+.list-items {
+  font-size: 20px;
+}
+
+.button {
+  display: flex;
+  justify-content: right;
+  padding-right: 28px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.btn-refresh {
+  border: 1px solid;
+  border-color: rgba(27, 31, 36, 0.15);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  line-height: 1.5;
+  border-radius: 0.5em;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 6px 24px;
+  background-color: #eceaea;
+  color: #706f6f;
+}
+
+@media (min-width: 600px) {
+  .counter-page {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
