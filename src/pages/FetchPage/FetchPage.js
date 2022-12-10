@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Card from "../../components/UI/Card/Card";
 import classes from "./FetchPage.module.css";
+import HomeLink from "../../components/HomeLink/HomeLink";
 
 const FetchPage = () => {
   const [data, setData] = useState([]);
@@ -33,6 +34,7 @@ const FetchPage = () => {
 
   return (
     <main className={classes["fetch-page"]}>
+      <HomeLink />
       <Card>
         <header className={classes.header}>
           <h1>US population 2013-2020</h1>

@@ -1,0 +1,24 @@
+.link {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-top: 16px;
+    margin-right: 20px;
+  }
+  
+  .icon {
+    height: 32px;
+    width: 32px;
+    color: #24292f;
+  }
+  
+  .icon:hover {
+    color: white;
+  }
+  
+  @media (min-width: 700px) {
+    .link {
+      margin-top: 20px;
+      margin-right: 44px;
+    }
+  }
