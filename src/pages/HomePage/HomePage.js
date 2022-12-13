@@ -10,9 +10,12 @@ const HomePage = () => {
         <div className={classes["container-item"]}>
           <h1 className={classes.header}>Counter</h1>
           <p className={classes.info}>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus
-            officiis ipsum velit, labore quod voluptas! Lorem ipsum dolor sit,
-            amet consectetur adipisicing elit. Minima, commodi.
+            A simple counting app with added functionality consisting in
+            indicating the exact number by which we want to increase or reduce
+            the current score. It was created using <b> Redux Toolkit</b>,{" "}
+            <b> React Hook Form </b> and
+            <b> useState</b>. <b>React Router</b> and <b>React Icons</b> were
+            also used.
           </p>
           <div className={classes.buttons}>
             <button
@@ -26,8 +29,9 @@ const HomePage = () => {
         <div className={classes["container-item"]}>
           <h1 className={classes.header}>Form</h1>
           <p className={classes.info}>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus
-            officiis ipsum velit, labore quod voluptas!
+            An extensive form that was created to practice the possibilities
+            offered by <b>React Hook Form</b> with the use of <b>date-fns</b>.
+            <b> React Router</b> and <b>React Icons</b> were also used.
           </p>
           <div className={classes.buttons}>
             <button
@@ -39,11 +43,13 @@ const HomePage = () => {
           </div>
         </div>
         <div className={classes["container-item"]}>
-          <h1 className={classes.header}>Fetch</h1>
+          <h1 className={classes.header}>Fetch API</h1>
           <p className={classes.info}>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus
-            officiis ipsum velit, labore quod voluptas! Lorem ipsum dolor sit
-            amet.
+            A very simple application to practice fetching basic data from API
+            using <b>Fetch API </b>along with <b>useState</b> and
+            <b> useEffect</b> and display data on the page. <b>React Router </b>
+            and
+            <b> React Icons</b> were also used.
           </p>
           <div className={classes.buttons}>
             <button
@@ -55,11 +61,13 @@ const HomePage = () => {
           </div>
         </div>
         <div className={classes["container-item"]}>
-          <h1 className={classes.header}>RTX Query</h1>
+          <h1 className={classes.header}>RTK Query</h1>
           <p className={classes.info}>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus
-            officiis ipsum velit, labore quod voluptas! Lorem ipsum dolor sit
-            amet.
+            A very simple application to practice fetching basic data from API
+            using <b>RTK Query </b> and display data on the page.
+            <b> React Router </b>
+            and
+            <b> React Icons</b> were also used.
           </p>
           <div className={classes.buttons}>
             <button
